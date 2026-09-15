@@ -1,0 +1,311 @@
+{
+  "profile": {
+    "name": "SK. Yeasin Ahsanullah Al-Galib",
+    "title": "Junior Software Engineer • Full-Stack & Applied AI",
+    "email": "syaagalib@nubtkhulna.ac.bd",
+    "phone": "+8801946303020",
+    "location": "Khulna, Bangladesh",
+    "website": "https://syaagalib.github.io",
+    "avatar": "/galib.svg",
+    "bio": "Software engineer experienced in building scalable web apps, RESTful APIs, and AI systems using Python, React, TypeScript, and Docker. Founding Engineer at Intelleeo AI Studio and co-founder of AIELTS. Open to full-time junior roles.",
+    "socials": [
+      {
+        "plattform": "GitHub",
+        "url": "https://github.com/SYAAGalib",
+        "username": "SYAAGalib"
+      },
+      {
+        "plattform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/syaagalib",
+        "username": "syaagalib"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Intelleeo AI Studio",
+      "role": "Founding Software Engineer",
+      "location": "Khulna, Bangladesh",
+      "startDate": "2025-10",
+      "endDate": null,
+      "current": true,
+      "description": "Led technical development of full-stack AI applications and mobile/web solutions.",
+      "highlights": [
+        "Reduced LLM inference costs by implementing a token-caching layer and async task queues across FastAPI backends.",
+        "Increased microservice throughput by rearchitecting core services into modular FastAPI endpoints."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "React Native",
+        "Docker",
+        "PostgreSQL",
+        "Git"
+      ]
+    },
+    {
+      "company": "AIELTS.org",
+      "role": "Lead Software Engineer & Technical Co-Founder",
+      "location": "Khulna, Bangladesh",
+      "startDate": "2024-10",
+      "endDate": null,
+      "current": true,
+      "description": "Co-founded and led technical development of the AI language learning platform.",
+      "highlights": [
+        "Won 1st place at the UIHP national startup challenge and secured World Bank and ICT Ministry grant funding.",
+        "Developed real-time speaking and writing evaluation algorithms scored against official IELTS rubrics using NLP and LLM APIs."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Docker",
+        "NLP",
+        "Git"
+      ]
+    },
+    {
+      "company": "PieBD Software Firm",
+      "role": "Junior Software Engineer",
+      "location": "Khulna, Bangladesh",
+      "startDate": "2024-08",
+      "endDate": "2025-10",
+      "current": false,
+      "description": "Developed production web applications and scalable RESTful APIs supporting client workflows.",
+      "highlights": [
+        "Maintained high production uptime and reliability by managing Linux infrastructure, Caddy servers, automated SSL, and backups.",
+        "Engineered and maintained backend RESTful APIs in Python supporting core business operations."
+      ],
+      "technologies": [
+        "Python",
+        "React",
+        "PostgreSQL",
+        "MySQL",
+        "Linux",
+        "Docker",
+        "Caddy",
+        "Git"
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "title": "Campus Ambassador & Tech Outreach — Global Consultancy Education",
+      "period": "Jan 2023 – Present",
+      "description": "Mentored prospective students and organized campus tech workshops alongside coursework; named Best Campus Ambassador twice."
+    },
+    {
+      "title": "GENb Catalyst — bKash Limited",
+      "period": "Jun 2023",
+      "description": "Selected for a national youth fintech advocacy initiative; ran campus awareness campaigns."
+    },
+    {
+      "title": "BUET CTF Fest 2023",
+      "period": "2023",
+      "description": "Placed 16th nationally out of all competing teams in Bangladesh's inter-university Capture-the-Flag competition."
+    },
+    {
+      "title": "ICCP Programming Contest — NUBTK",
+      "period": "2024",
+      "description": "Placed 3rd as team leader in the institution's competitive programming contest."
+    },
+    {
+      "title": "National Debate Federation",
+      "period": "",
+      "description": "Competed in 2 major inter-institutional debate competitions."
+    },
+    {
+      "title": "SEQAEP Best Reader Award",
+      "period": "",
+      "description": "Recognized as Best Reader twice under the Secondary and Higher Secondary Education Department's SEQAEP program."
+    },
+    {
+      "title": "Science Fair — Bangladesh Noubahini School & College",
+      "period": "",
+      "description": "Presented a project on reducing dependence on herbal medicine."
+    },
+    {
+      "title": "Olympiad Participation — BCO & ICT Olympiad Bangladesh (ICTOB)",
+      "period": "",
+      "description": "Participated in the BCO and ICTOB national olympiads."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Northern University of Business & Technology Khulna",
+      "degree": "Bachelor of Science",
+      "fieldOfStudy": "Computer Science & Engineering",
+      "startDate": "2022",
+      "endDate": "2026",
+      "location": "Khulna, Bangladesh",
+      "highlights": [
+        "Coursework: Data Structures, Algorithms, OOP, DBMS, OS, Software Engineering | Expected Graduation: 2026"
+      ]
+    },
+    {
+      "institution": "Bangladesh Noubahini School & College, Khulna",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "fieldOfStudy": "Science",
+      "startDate": "2018",
+      "endDate": "2020",
+      "location": "Khulna, Bangladesh",
+      "highlights": []
+    },
+    {
+      "institution": "Govt. Model Secondary School, Khulna",
+      "degree": "Secondary School Certificate (SSC)",
+      "fieldOfStudy": "Science",
+      "startDate": "2016",
+      "endDate": "2018",
+      "location": "Khulna, Bangladesh",
+      "highlights": []
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "C/C++"
+      ]
+    },
+    {
+      "category": "Frameworks & Web Technologies",
+      "skills": [
+        "React",
+        "React Native",
+        "FastAPI",
+        "Node.js",
+        "Tailwind CSS",
+        "HTML5/CSS3"
+      ]
+    },
+    {
+      "category": "Databases & Cloud Infrastructure",
+      "skills": [
+        "PostgreSQL",
+        "MySQL",
+        "Redis",
+        "Docker",
+        "Linux/Bash",
+        "Caddy"
+      ]
+    },
+    {
+      "category": "Tools & Engineering Practices",
+      "skills": [
+        "Git/GitHub",
+        "RESTful APIs",
+        "Microservices",
+        "NLP & LLM Integration",
+        "System Architecture"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Khulna Carzone — Vehicle Verification & Operations Platform",
+      "description": "Built a Go verification service to flag altered vehicle inspection reports and developed a React/MongoDB operations dashboard.",
+      "url": "https://carzone.com.bd",
+      "technologies": [
+        "Go",
+        "React",
+        "MongoDB"
+      ],
+      "highlights": []
+    },
+    {
+      "title": "AIELTS — AI Language Learning Platform",
+      "description": "Engineered real-time audio evaluation microservices assessing IELTS speaking and writing fluency.",
+      "url": "https://aielts.org",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "PostgreSQL",
+        "Docker",
+        "NLP"
+      ],
+      "highlights": []
+    },
+    {
+      "title": "Intelleeo AI Studio",
+      "description": "Built high-throughput async FastAPI endpoints with token-caching layers and role-based JWT authentication for workflow automation.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "React",
+        "React Native",
+        "PostgreSQL",
+        "Docker",
+        "Git"
+      ],
+      "highlights": []
+    },
+    {
+      "title": "Casheeo — Offline-First Cross-Platform App",
+      "description": "Architected an offline sync layer (WatermelonDB, SQLite, MMKV) in React Native & Supabase for full zero-network usability.",
+      "technologies": [
+        "React Native",
+        "Expo",
+        "NativeWind",
+        "Supabase",
+        "SQLite",
+        "WatermelonDB",
+        "MMKV"
+      ],
+      "highlights": []
+    },
+    {
+      "title": "Shrimp Species Classification Using CNNs",
+      "description": "Undergraduate thesis: trained, validated, and defended an end-to-end CNN image classification pipeline for marine species.",
+      "technologies": [
+        "Python",
+        "CNN",
+        "Machine Learning"
+      ],
+      "highlights": []
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Computer Science for Python Programming Professional Certificate",
+      "issuer": "HarvardX",
+      "date": "2023"
+    },
+    {
+      "title": "Certified Software Engineer",
+      "issuer": "HackerRank",
+      "date": "2023"
+    },
+    {
+      "title": "Generative AI: Introduction and Applications",
+      "issuer": "Coursera",
+      "date": "2024"
+    },
+    {
+      "title": "Deep Learning for Natural Language Processing",
+      "issuer": "Coursera",
+      "date": "2024"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "Bengali",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "A1"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "theme": "classic",
+  "locale": "en",
+  "pdf": {
+    "format": "a4",
+    "showAtsButton": true,
+    "showDesignButton": true,
+    "filename": "CV_{name}.pdf"
+  }
+}

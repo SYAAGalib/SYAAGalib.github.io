@@ -1,0 +1,113 @@
+{
+    "cargui.argumentCategories": [
+        {
+            "name": "Common",
+            "arguments": [
+                "--color never",
+                "--keep-going",
+                "--all-targets",
+                "--workspace"
+            ]
+        },
+        {
+            "name": "Compilation Targets",
+            "arguments": [
+                "--target x86_64-unknown-linux-gnu",
+                "--target x86_64-pc-windows-gnu",
+                "--target x86_64-pc-windows-msvc",
+                "--target aarch64-apple-darwin",
+                "--target x86_64-apple-darwin",
+                "--target wasm32-unknown-unknown",
+                "--target wasm32-wasi",
+                "--target aarch64-unknown-linux-gnu"
+            ]
+        },
+        {
+            "name": "Performance",
+            "arguments": [
+                "--jobs 1",
+                "--jobs 2",
+                "--jobs 4",
+                "--jobs 8",
+                "--timings"
+            ]
+        },
+        {
+            "name": "Output Control",
+            "arguments": [
+                "--message-format json",
+                "--message-format short",
+                "--message-format human"
+            ]
+        },
+        {
+            "name": "Build Options",
+            "arguments": [
+                "--locked",
+                "--frozen",
+                "--offline",
+                "--all-features",
+                "--no-default-features"
+            ]
+        }
+    ],
+    "cargui.environmentVariables": [
+        "RUST_BACKTRACE=1",
+        "RUST_LOG=info",
+        "CARGO_INCREMENTAL=1"
+    ],
+    "cargui.customCommandCategories": [
+        {
+            "name": "Inspection",
+            "commands": [
+                {
+                    "name": "Show Outdated Deps",
+                    "command": "cargo outdated"
+                },
+                {
+                    "name": "Show Crate Metadata",
+                    "command": "cargo metadata --no-deps"
+                },
+                {
+                    "name": "List Installed Tools",
+                    "command": "cargo install --list"
+                },
+                {
+                    "name": "Show All Features",
+                    "command": "cargo tree --all-features"
+                }
+            ]
+        },
+        {
+            "name": "Analysis",
+            "commands": [
+                {
+                    "name": "Check Compile Times",
+                    "command": "cargo build --timings"
+                },
+                {
+                    "name": "Show Feature Tree",
+                    "command": "cargo tree --format \"{p} {f}\""
+                },
+                {
+                    "name": "Analyze Binary Size",
+                    "command": "cargo bloat --release"
+                },
+                {
+                    "name": "Generate Docs",
+                    "command": "cargo doc --no-deps --open"
+                }
+            ]
+        }
+    ],
+    "cargui.snapshots": [
+        {
+            "name": "lib",
+            "mode": "debug",
+            "targets": [],
+            "features": [],
+            "arguments": [],
+            "envVars": []
+        }
+    ]
+}

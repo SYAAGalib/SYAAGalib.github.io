@@ -1,0 +1,228 @@
+{
+  "communities": {
+    "0": [
+      "src_lib_assets",
+      "src_lib_assets_resolveasset",
+      "src_lib_configschema",
+      "src_lib_configschema_dotcvconfig",
+      "src_lib_i18n_index",
+      "src_lib_i18n_index_gettranslations",
+      "src_lib_i18n_index_supportedlocale",
+      "src_lib_i18n_index_translationkey",
+      "src_lib_i18n_index_translations",
+      "src_themes_classic_index",
+      "src_themes_classic_index_formatdate",
+      "src_themes_classic_pdf",
+      "src_themes_classic_pdf_formatdate",
+      "src_themes_sidebar_index",
+      "src_themes_sidebar_index_formatdate",
+      "src_themes_sidebar_pdf",
+      "src_themes_sidebar_pdf_formatdate",
+      "src_themes_timeline_index",
+      "src_themes_timeline_index_formatdate",
+      "src_themes_timeline_pdf",
+      "src_themes_timeline_pdf_formatdate"
+    ],
+    "1": [
+      "src_components_pdf_atsresume",
+      "src_components_pdf_atsresume_formatdate",
+      "src_lib_configschema_dotcvconfigschema",
+      "src_lib_cvschema_cvschema",
+      "src_lib_parser_configparser",
+      "src_lib_parser_configparser_loadconfig",
+      "src_lib_parser_index",
+      "src_lib_parser_index_loaddata",
+      "src_lib_parser_jsonparser",
+      "src_lib_parser_jsonparser_parsejson",
+      "src_pages_index",
+      "src_pages_index_jsonld",
+      "src_pages_index_nameparts",
+      "src_pages_index_resolvedtheme",
+      "src_pages_index_skillkeywords",
+      "src_pages_index_twittersocial",
+      "src_pages_print",
+      "src_pages_print_ats",
+      "src_pages_print_design",
+      "src_pages_print_design_resolvedtheme"
+    ],
+    "2": [
+      "package",
+      "package_devdependencies",
+      "package_devdependencies_types_node",
+      "package_engines",
+      "package_engines_node",
+      "package_name",
+      "package_scripts",
+      "package_scripts_astro",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_generate_comparison",
+      "package_scripts_preview",
+      "package_scripts_screenshots",
+      "package_type",
+      "package_version",
+      "types_node"
+    ],
+    "3": [
+      "ref",
+      "ref_astro_tsconfigs_strict",
+      "ref_astro_types_d_ts",
+      "ref_dist",
+      "ref_node",
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_compileroptions_types",
+      "tsconfig_exclude",
+      "tsconfig_extends",
+      "tsconfig_include"
+    ],
+    "4": [
+      "src_lib_cvschema",
+      "src_lib_cvschema_certificationsschema",
+      "src_lib_cvschema_cvdata",
+      "src_lib_cvschema_educationitemschema",
+      "src_lib_cvschema_experienceschema",
+      "src_lib_cvschema_languageitemschema",
+      "src_lib_cvschema_profileschema",
+      "src_lib_cvschema_projectitemschema",
+      "src_lib_cvschema_skillcategoryschema",
+      "src_lib_cvschema_socialschema"
+    ],
+    "5": [
+      "src_pages_preview_theme",
+      "src_pages_preview_theme_getstaticpaths",
+      "src_pages_preview_theme_resolvedtheme",
+      "src_themes_registry",
+      "src_themes_registry_gettheme",
+      "src_themes_registry_resolvedtheme",
+      "src_themes_registry_resolvetheme",
+      "src_themes_registry_themedefinition",
+      "src_themes_registry_themename",
+      "src_themes_registry_themes"
+    ],
+    "6": [
+      "astro",
+      "package_dependencies",
+      "package_dependencies_astro",
+      "package_dependencies_puppeteer",
+      "package_dependencies_zod",
+      "puppeteer",
+      "zod"
+    ],
+    "7": [
+      "scripts_generate_comparison",
+      "scripts_generate_comparison_checkserver",
+      "scripts_generate_comparison_main",
+      "scripts_generate_comparison_output_dir"
+    ],
+    "8": [
+      "scripts_generate_screenshots",
+      "scripts_generate_screenshots_checkserver",
+      "scripts_generate_screenshots_main",
+      "scripts_generate_screenshots_output_dir"
+    ],
+    "9": [
+      "src_lib_pdf_generatepdf",
+      "src_lib_pdf_generatepdf_generatepdffromurl"
+    ],
+    "10": [
+      "astro_config"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2,
+    "1": 0.15263157894736842,
+    "2": 0.125,
+    "3": 0.16666666666666666,
+    "4": 0.2,
+    "5": 0.28888888888888886,
+    "6": 0.2857142857142857,
+    "7": 0.6666666666666666,
+    "8": 0.6666666666666666,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_lib_i18n_index_gettranslations",
+      "label": "getTranslations()",
+      "degree": 8
+    },
+    {
+      "id": "src_lib_assets_resolveasset",
+      "label": "resolveAsset()",
+      "degree": 7
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 7
+    },
+    {
+      "id": "src_lib_parser_configparser_loadconfig",
+      "label": "loadConfig()",
+      "degree": 6
+    },
+    {
+      "id": "src_lib_configschema_dotcvconfig",
+      "label": "DotcvConfig",
+      "degree": 5
+    },
+    {
+      "id": "src_themes_registry_resolvetheme",
+      "label": "resolveTheme()",
+      "degree": 5
+    },
+    {
+      "id": "src_lib_parser_jsonparser_parsejson",
+      "label": "parseJson()",
+      "degree": 3
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 3
+    },
+    {
+      "id": "tsconfig_include",
+      "label": "include",
+      "degree": 3
+    },
+    {
+      "id": "src_themes_registry_themename",
+      "label": "ThemeName",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "loadData()",
+      "target": "parseJson()",
+      "source_files": [
+        "src/lib/parser/index.ts",
+        "src/lib/parser/jsonParser.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `dependencies` to `package.json`?",
+      "why": "High betweenness centrality (0.019) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `SupportedLocale`, `TranslationKey`, `CVData` to the rest of the system?",
+      "why": "44 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `package.json` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.125 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
